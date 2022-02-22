@@ -1,0 +1,16 @@
+{
+    "name": "pedro/km",
+    "authors": [
+        {
+            "name": "pedroparro",
+            "email": "pedroparro10@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Models\\":"./models/",
+            "Views\\":"./views/",
+            "Controllers\\":"./controllers/" 
+        }
+    }
+}

@@ -1,0 +1,197 @@
+/*Author: Pedro Parro*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background-color: brown;*/
+}
+body {
+    width: 100%;
+}
+/*section index*/
+.section-index {
+    height: 700px;
+    background-color: #333;
+    padding: 100px;
+}
+/*section fuel*/
+.section-fuel {
+    height: 700px;
+    background-color: #333;
+    padding: 150px;
+}
+/*div-h2*/
+.div-h2 h2 {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 90px;
+    text-align: left;
+    position: fixed;
+    padding: 5px;
+  
+}
+/*navbar img*/
+.navbar img {
+    border-radius: 5px;
+    padding-left: 30px;
+}
+/*navbar*/
+.navbar {
+    width: 100%;
+    transition: 0.5s;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.4);
+    color: #00804b;
+    position: fixed;
+    align-content: center;
+    z-index: 1;
+   
+}
+.navbar ul {
+    display: inline;
+    list-style: none;
+}
+.navbar li {
+    float: left;
+    display: inline;
+    padding-left: 100px;
+    margin-right: 150px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #333;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.navbar li a:hover{
+    background: rgb(31, 28, 28);
+    border-radius: 5px;
+    padding: 5px;
+    color: #00804b;
+    transform: translateY(10%);
+    font-weight: bold;
+}
+/*page index*/
+/*div-form*/
+.div-form {
+    background-color: #00804b;
+    width: 1000px;
+    height: 500px;
+    margin: 50px;
+    border-radius: 5px;
+}
+.forms {
+    display: inline-flex;
+    margin-left: 55px;
+}
+/*label*/
+.forms label {
+    width: 400px;
+    padding: 10px;
+}
+/*input*/
+.forms input {
+    width: 400px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+/*select*/
+.forms select {
+    width: 400px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+/*button*/
+button {
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: darkslategrey;
+}
+button:hover {
+    background-color: #333;
+    color: #00804b;
+}
+/*footer*/
+footer {
+    width: 100%;
+    line-height: 30px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: #00804b;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+}
+/*end page index*/
+
+/*page fuel*/
+#search {
+    position: fixed;
+    margin-top: 100px;
+    left: 60%;
+    display: inline-flex;
+}
+#search input {
+    padding-left: 30px;
+    border:1;
+    outline:none;
+    border-radius: 3px;
+}
+#search #btn-search {
+    background-color: #00804b;
+    color: #fff;
+    width: 70px;
+    height: 30px;
+    position: relative;
+    margin: 0px;
+}
+.fa-search {
+    position: absolute;
+    border:none;
+    outline:none;
+    top: 7px;
+    right: 330px;
+    color: rgb(245, 7, 7);
+    z-index: 10;
+}
+.table {
+    width: 1200px;
+    background-color: #fff;
+    margin-left: -100px;
+}
+thead {
+    font-size: 12px;
+    text-align: center;
+}
+tr, th, td {
+    border: 1px solid #00804b;
+}
+tbody {
+    font-size: 12px;
+}
+.pagination {
+    margin-left: -100px;
+}
+/*end page fuel*/
